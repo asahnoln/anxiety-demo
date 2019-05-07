@@ -4,41 +4,41 @@
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: А ЭТО — ТРЕВОГА ЧЕЛОВЕКА
 
-n: _YOU_ ARE THE ANXIETY
+n: _ВЫ_ И ЕСТЬ ТРЕВОГА
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, I was hoping to *not* eat in peace today.
+h: Как здорово, я *и не* надеялся нормально поесть сегодня.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: ВАША ЗАДАЧА — УБЕРЕЧЬ ЧЕЛОВЕКА ОТ *ОПАСНОСТИ*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: ЭТОТ СЕНДВИЧ ПРЕДСТАВЛЯЕТ ДЛЯ НЕГО *ОПАСНОСТЬ* ПРЯМО СЕЙЧАС
 
-n: QUICK, WARN THEM!
+n: БЫСТРЕЕ, ПРЕДУПРЕДИТЕ ЧЕЛОВЕКА!
 
 `bb({eyes:"normal", mouth:"normal"})`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT _YOUR_ FEAR WOULD MOST LIKELY SAY TO YOU)
+n4: (ПУСТЬ _ВАША_ ТРЕВОГА ИГРАЕТ! ВЫБИРАЙТЕ, ЧТО МОГ БЫ ВАМ СКАЗАТЬ _ВАШ_ СТРАХ)
 
-[You're eating alone for lunch! Again!](#act1a_alone)
+[Ешь обед один! Опять!](#act1a_alone)
 
-[You're not productive while eating!](#act1a_productive)
+[Ты не продуктивен, пока ешь!](#act1a_productive)
 
-[That white bread's bad for you!](#act1a_bread)
+[Тебе вреден этот белый хлеб!](#act1a_bread)
 
 # act1a_alone
 
 `bb({mouth:"small", eyes:"narrow"})`
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Ты разве не знаешь, что одиночество настолько же опасно преждевременной смертью, как и выкуривание 15 сигарет в день?
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -48,17 +48,17 @@ b: (Holt-Lunstad et al, 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Эм, спасибо, что приводишь источники, но…-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if you don't hang out with someone *right now* you're gonna-
+b: Это значит, что если ты ни с кем не затусишь *прямо сейчас*, то ты…
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: УМРЁЁЁЁЁЁЁЁЁЁЁШШШШШШЬ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -71,39 +71,39 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: ВЫ ИСПОЛЬЗОВАЛИ *СТРАХ ОДИНОЧЕСТВА*
 
 (#act1b)
 
 # act1a_productive
 
-b: Whip out your laptop and do some work right now!
+b: Доставай лаптоп и давай работай сейчас же!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Эм, я боюсь, крошки попадут в клавиа…
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If you're not productive you'll become a penniless parasite and your parents will say
+b: Если ты не продуктивен, то ты станешь нищебродом, а твои родители скажут:
 
 `bb({mouth:"small", eyes:"narrow"})`
 
-b: “you have brought dishonor to our family, now we have to all commit seppuku”
+b: «Ты обесчестил нашу семью, теперь мы все должны сделать сеппуку»
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: and then you'll-
+b: а потом ты…
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: УМРЁЁЁЁЁЁЁЁЁЁЁШШШШШШЬ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -116,7 +116,7 @@ publish("hp_show");
 
 `_.seppuku = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: ВЫ ИСПОЛЬЗОВАЛИ *СТРАХ БЫТЬ ПЛОХИМ*
 
 (#act1b)
 
@@ -124,18 +124,18 @@ n: YOU USED *FEAR OF BEING A BAD PERSON*
 
 `hong({eyes:"0_annoyed"})`
 
-h: Have those studies been replicat--
+h: Разве эти исследования были подтвержде…
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike your blood sugar so they'll have to amputate all your limbs and then you'll-
+b: От очищенной пшеницы у тебя в крови резко повысится уровень глюкозы, тебе придется ампутировать все конечности, а потом ты…
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: УМРЁЁЁЁЁЁЁЁЁЁЁШШШШШШЬ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -148,33 +148,33 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: ВЫ ИСПОЛЬЗОВАЛИ *СТРАХ УГРОЗЫ ЗДОРОВЬЮ*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: СУПЕРЭФФЕКТИВНО
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: I am best protector!
+b: Я лучший уберегатель!
 
-n: BUT YOU'RE NOT DONE SAVING YOUR HUMAN YET
+n: НО ВАШЕГО ЧЕЛОВЕКА ЕЩЕ СПАСАТЬ И СПАСАТЬ
 
-n: GET YOUR HUMAN'S ENERGY BAR EMPTY
+n: ПРИВЕДИТЕ УРОВЕНЬ ЕГО ЭНЕРГИИ К НУЛЮ
 
-n: TO PROTECT YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: ЧТОБЫ УБЕРЕЧЬ ФИЗИЧЕСКИЕ + СОЦИАЛЬНЫЕ + МОРАЛЬНЫЕ НУЖДЫ ЧЕЛОВЕКА, МОЖНО ИСПОЛЬЗОВАТЬ:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: СТРАХ *УГРОЗЫ ЗДОРОВЬЮ* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: СТРАХ *ОДИНОЧЕСТВА* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: И СТРАХ *БЫТЬ ПЛОХИМ* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS~)
+n4: (PRO-TIP: ВЫБИРАЙТЕ, ЧТО ЗАДЕВАЕТ ЛИЧНО ВАШИ САМЫЕ ГЛУБОКИЕ И ТЕМНЫЕ СТРАХИ)
 
 h: ...
 
@@ -187,18 +187,18 @@ sfx("rustle");
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: Ладно, пора проверить телефон.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: УБЕРЕГИТЕ СВОЕГО ЧЕЛОВЕКА
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: ОТ МИРА. ОТ ДРУГИХ ЛЮДЕЙ. ОТ НЕГО САМОГО.
 
-n: GOOD LUCK
+n: УДАЧИ
 
 (...500)
 
@@ -216,34 +216,34 @@ n: ROUND ONE: *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Хм. В ленте Фейсбука пишут, что на выходных будет вечеринка.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Разве этот чудак не устраивает вечеринки *каждые* выходные?
 
 `bb({eyes:"uncertain_right"});`
 
-b: Must be some underlying neurosis there.
+b: Похоже на какой‐то невроз.
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: О, меня пригласили?
 
 `bb({eyes:"narrow", mouth:"normal"});`
 
-b: Well then!
+b: Так!
 
-[Say yes, or you'll die from loneliness](#act1c_loner)
+[Скажи да, или ты умрешь от одиночества](#act1c_loner)
 
-[Say no, it's probably full of lethal drugs](#act1c_drugs)
+[Скажи нет, там походу куча смертельной наркоты](#act1c_drugs)
 
-[Ignore it, you just make parties sad](#act1c_sad)
+[Игнорь, ты и так портишь вечеринки](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human. Fifteen.
+b: Пятнадцать сигарет в день, человек. Пятнадцать.
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -251,7 +251,7 @@ b: Fifteen cigarettes a day, human. Fifteen.
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at your funeral, they'll dump your ashes into the ocean, and you become WHALE POOP.
+b: Никто не придет на твои похороны, твой прах развеют над океаном и ты превратишься в КИТОВЫЕ КАКАШКИ.
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -268,25 +268,25 @@ attack("10p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah you should go to that party.
+b: Так что да, тебе обязательно надо идти на вечеринку.
 {{/if}}
 
 {{if _.seppuku}}
-b: Just bring your laptop so you can do some work.
+b: Только лаптоп захвати, чтоб работу делать.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Главное, чтоб там не подавали БЕЛЫЙ ХЛЕБ
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: Господи! Лишь бы ты заткнулся, окей.
 
-h: I'll say yes.
+h: Я скажу да.
 
 {{if _.whalepoop}}
-b: Whale poop, human. Whale poop.
+b: Китовые какашки, человек. Китовые какашки.
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -298,7 +298,7 @@ b: Whale poop, human. Whale poop.
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: или хуже... БЕЛЫЙ ХЛЕБ
 {{/if}}
 
 {{if _.whitebread}}
@@ -306,11 +306,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: You'll overdose on so much meth and white bread they won't be able to fit your fat corpse into the cremation furnace!
+b: У тебя случится передозировка от метамфетаминов и белого хлеба, твой жирный труп не смогут засунуть в крематорий!
 {{/if}}
 
 {{if !_.whitebread}}
-b: You'll overdose on so many drugs the undertaker will wonder how your body was *already* pre-embalmed!
+b: У тебя случится передозировка от такого дикого количества наркоты, что гробовщик удивится, почему твое тело *уже заранее* забальзамировано!
 {{/if}}
 
 ```
@@ -321,14 +321,14 @@ attack("10p", "harm");
 (...2500)
 
 {{if _.seppuku}}
-b: Besides, can't party, you need to do work so your parents don't commit seppuku.
+b: Да и вообще, нельзя расслабляться: тебе надо работать, а то родители сделают сеппуку.
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: Господи! Лишь бы ты заткнулся, окей.
 
-h: I'll say no.
+h: Я скажу нет.
 
 `_.partyinvite="no"`
 
@@ -341,15 +341,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All you ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Всё, что ты делаешь, это плачешься в жилетку о том, как одиночество по смертности равносильно 15 сигаретам в день.
 {{/if}}
 
 {{if _.seppuku}}
-b: All you ever do at parties is worry about how you should be doing work instead.
+b: Всё, что ты делаешь на вечеринках, это печешься о том, что тебе нужно вместо вечеринки работать.
 {{/if}}
 
 {{if _.whitebread}}
-b: All you ever do is worry about how the unhealthy food options are going to kill you.
+b: Всё, что ты делаешь, это печешься о том, что вокруг сплошь нездоровая пища и она тебя убьет.
 {{/if}}
 
 ```
@@ -357,19 +357,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why
+h: Мда, интересно почему.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if you go you'll make them feel bad, but if you reject their invite you'll also make them feel bad!
+b: Если ты пойдешь, то испортишь им настроение, но если ты откажешься — тоже испортишь им настроение!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL YOU DO IS MAKE PEOPLE FEEL BAD, SO YOU SHOULD FEEL BAD
+b: ТЫ ТОЛЬКО И ДЕЛАЕШЬ, ЧТО ПОРТИШЬ ЛЮДЯМ НАСТРОЕНИЕ, ТЫ ПЛОХОЙ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -380,9 +380,9 @@ attack("10p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Уф. Лишь бы ты заткнулся, окей.
 
-h: I'll ignore the invite.
+h: Я проигнорю приглашение.
 
 `_.partyinvite="ignore"`
 

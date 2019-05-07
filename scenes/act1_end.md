@@ -8,13 +8,13 @@
 
 (...1000)
 
-n: FEARS YOU USED:
+n: ИСПОЛЬЗОВАННЫЕ СТРАХИ:
 
-n: #harm# *BEING HARMED:* {{_.attack_harm}}
+n: #harm# *УГРОЗА ЗДОРОВЬЮ:* {{_.attack_harm}}
 
-n: #alone# *BEING UNLOVED:* {{_.attack_alone}}
+n: #alone# *ОДИНОЧЕСТВО:* {{_.attack_alone}}
 
-n: #bad# *BEING A BAD PERSON:* {{_.attack_bad}}
+n: #bad# *БЫТЬ ПЛОХИМ:* {{_.attack_bad}}
 
 (...3000)
 
