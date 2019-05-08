@@ -395,19 +395,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Ладно. Хватит с меня Фейсбука. Нужно что-то поспокойнее, менее тревожное.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Что там в Твиттере?
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[О нет, посмотри на эту ужасную новость!](#act1d_news)
 
-[Oh no, is that tweet secretly about *you?*](#act1d_subtweet)
+[О нет, кажется этот твит на самом деле о *тебе?*](#act1d_subtweet)
 
-[hey, a GIF of a cat drinking milk](#act1d_milk)
+[О, гифка кота, пьющего молоко](#act1d_milk)
 
 
 # act1d_news
@@ -417,14 +417,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Боже, такое ощущение, что мир катится в тартарары, да?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Как будто всё скоро погибнет, мы все обречены и ничего не можем сделать.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -435,7 +435,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Давай ретвитнем эту новость!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -453,11 +453,11 @@ bb({body:"normal", mouth:"normal", eyes:"uncertain"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Хорошо, я ее ретвитну, только помолчи, пожалуйста!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Пошло оно, позырим, что в Снапчате.
 
 (#act1e)
 
@@ -466,35 +466,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: Это сабтвит! Подлый, подлый сабтвит!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: А может нет?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind your back
+b: Что если все уже болтают всякое за твоей спиной
 
-h: They're n--
+h: Никто не...
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF YOUR BACK
+b: ПРЯМО ПЕРЕД ТВОЕЙ СПИНОЙ
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Я не...
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: но *что если*
 
-h: S--
+h: С...
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *что если*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -519,7 +519,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"uncertain"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: ЛАДЫ, посмотрю Снэпчат.
 
 (#act1e)
 
@@ -527,7 +527,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Ха, очень мило, только что ретвитнул, я дума...
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -535,7 +535,7 @@ bb({body:"scream_anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND YOU'RE A TERRIBLE PERSON FOR ENJOYING ANIMAL ABUSE
+b: КОШКИ НЕ ПЕРЕВАРИВАЮТ МОЛОКО, ТЫ УЖАСНЫЙ ЧЕЛОВЕК, РАЗ НАСЛАЖДАЕШЬСЯ ЖЕСТОКИМ ОБРАЩЕНИЕМ С ЖИВОТНЫМИ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"narrow"});
@@ -552,7 +552,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"uncertain"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: ЛАДЫ, посмотрю Снэпчат.
 
 (#act1e)
 
@@ -560,7 +560,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Хм, фотографии со вчерашнего вечера. Так *вот как* выглядят эти еженедельные вечеринки.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -572,29 +572,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Ох, слишком людно для моей тревожности.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Может, мне не надо было отвечать да на приглашение?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change your answer? You unreliable jerk!](#act1e_yes_dontchange)
+[Меняешь ответ? Ты ненадежная сволочь!](#act1e_yes_dontchange)
 
-[Change your answer! It's too crowded!](#act1e_yes_changetono)
+[Меняй ответ! Слишком людно!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[yeah they were totally subtweeting you](#act1e_ignore_subtweet)
+[да, они точно писали о тебе подлые сабтвиты](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[wait you retweeted that story without fact-checking](#act1e_ignore_factcheck)
+[постой, ты ретвитнул историю и даже не проверил факты](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Ты знаешь, что у тебя очень кривая осанка?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -604,14 +604,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on you to come and now you're betraying their trust? Do you wanna die alone?!
+b: Они рассчитывали, что ты придешь, а теперь ты подрываешь их доверие? Ты хочешь помереть в одиночестве?
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: ПЯТНАДЦАТЬ. СИГАРЕТ.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: КИТОВЫЕ. КАКАШКИ.
 {{/if}}
 
 ```
@@ -626,7 +626,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Заткнись, заткнись, я оставлю ответ да!
 
 (#act1f)
 
@@ -637,7 +637,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Ты разве не знаешь о давках?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -645,7 +645,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: В 2003 году в ночном клубе в штате Род-Айленд случился пожар, люди в панике устроили давку на выходе, из-за чего 100 людей сгорело заживо.
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -653,14 +653,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO YOU-
+b: ТЫ ХОЧЕШЬ, ЧТОБЫ ТО ЖЕ САМОЕ СЛУЧИЛОСЬ С ТОБОЙ?
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: ОТВЕЧАЙ НЕТ ОТВЕЧАЙ НЕТ ОТВЕЧАЙ НЕТ ОТВЕЧАЙ НЕТ ОТВЕЧАЙ НЕТ ОТВЕЧАЙ НЕТ ОТВЕЧАЙ Н...
 
 
 ```
@@ -676,7 +676,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Заткнись, заткнись, я поменяю ответ на нет! Боже!
 
 (#act1f)
 
@@ -684,18 +684,18 @@ h: Shut up shut up I'll change my answer to no! God!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Хм... выглядит весело.
 
-h: Maybe I shouldn't have said no to the invite?
+h: Может, мне не следовало отвечать нет на приглашение?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change your answer? You unreliable jerk!](#act1e_no_dontchange)
+[Меняешь ответ? Ты ненадежная сволочь!](#act1e_no_dontchange)
 
-[Change your answer! Don't die alone!](#act1e_no_changetoyes)
+[Меняй ответ! Не помирай в одиночестве!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[yeah they were totally subtweeting you](#act1e_ignore_subtweet)
+[да, они точно писали о тебе подлые сабтвиты](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
@@ -703,14 +703,14 @@ h: Maybe I shouldn't have said no to the invite?
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Ты знаешь, что у тебя очень кривая осанка?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on you! ...to leave them alone and let them have a nice party without you, you horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} cree--
+b: Все на тебя рассчитывали! ...что ты не придешь и все нормально повеселятся без тебя, ты ужасное мерзкое {{if _.whitebread}}пожирающее белый хлеб{{/if}} чудови...
 
 
 ```
@@ -726,7 +726,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Заткнись, заткнись, я оставлю ответ нет!
 
 (#act1f)
 
@@ -737,7 +737,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases your cortisol as well as risk for cardiovascular disease and stroke!
+b: Хроническое одиночество увеличивает уровень кортизола, а также риск кардиоваскулярных заболеваний и инсульта!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -747,7 +747,7 @@ attack("10p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: ПЯТНАДЦАТЬ. СИГАРЕТ.
 {{/if}}
 
 ```
@@ -756,7 +756,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Заткнись, заткнись, я поменяю ответ на да! Боже!
 
 (#act1f)
 
@@ -767,14 +767,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All your problematic tweets have come back to roost!
+b: Все твои проблемные твиты тебе аукнулись!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: Say *one* thing wrong and all your so-called friends will drag you through the street for internet points!
+b: Хоть *раз* скажешь что-то нето и все так называемые друзья польют тебя грязью за интернет-очки!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -789,7 +789,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Почему ты такая?!
 
 (#act1f)
 
@@ -800,14 +800,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: You're spreading disinformation!
+b: Ты распространяешь дезинформацию!
 
 ```
 bb({body:"scream_anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: People like you are the reason fascism will arise from the rubble of democracy!
+b: Из-за таких как ты фашизм снова поднимет свою уродливую голову из руин демократии!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -822,7 +822,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Почему ты такая?!
 
 (#act1f)
 
@@ -833,13 +833,13 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: У тебя вместо позвоночника будет крендель! Прекращай горбиться над экраном!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: И ты тоже.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -855,7 +855,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Почему ты такая?!
 
 (#act1f)
 
@@ -863,27 +863,27 @@ h: Why are you like this?!
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.
+h: Хм... выглядит весело.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Может, мне не надо было игнорить приглашение?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, you're still a party pooper](#act1e_ignore_continue)
+[Игнорь, ты все вечеринки портишь](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Знаешь, скажи да.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Знаешь, скажи нет.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Но ведь игнорить невежливо?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *you* so
+b: Ну, остальные же игнорят *тебя*, так что...
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -894,7 +894,7 @@ attack("10p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: так что квиты.
 
 (#act1f)
 
@@ -902,9 +902,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Ты... даешь мне пойти потусить?
 
-b: Well, I mean, loneliness *can* kill you.
+b: Ну, просто, одиночество *реально* может убить.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -914,7 +914,7 @@ b: Well, I mean, loneliness *can* kill you.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Слишком людно. Толпы опасны.
 
 (#act1e_yes_changetono)
 
